@@ -1,0 +1,7 @@
+datasets
+pandas
+pymongo
+sentence_transformers
+transformers
+accelerate
+"langserve[all]"
