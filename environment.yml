@@ -1,0 +1,27 @@
+name: test1_llm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - ipython
+      - pillow
+      - pymupdf
+      - numpy
+      - fastapi
+      - pandas
+      - uvicorn
+      - langchain
+      - langchain-community
+      - langserve[all]
+      - langchain-ollama
+      - langchain-huggingface
+      - google-cloud
+      - google-cloud-aiplatform
+      - rich
+      - requests
+      - langchain_google_vertexai
+      - python-multipart
+      - uvicorn
